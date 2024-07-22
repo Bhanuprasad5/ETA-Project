@@ -10,7 +10,7 @@ import streamlit as st
 image= Image.open(r"573326-innomatics_research_labs_logo.png")
 st.image(image)
 # st.image(r"573326-innomatics_research_labs_logo.png")
-model = pickle.load(open(r"C:\Users\chouk\Machine Learning\estimator.pkl","rb"))
+model = pickle.load(open(r"estimator.pkl","rb"))
 
 
 start_lat = st.number_input("Enter the start latitude:",)
