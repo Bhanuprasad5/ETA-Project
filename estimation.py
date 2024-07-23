@@ -9,6 +9,8 @@ import streamlit as st
 
 image= Image.open(r"573326-innomatics_research_labs_logo.png")
 st.image(image)
+st.title("Estimation of Time ML Project")
+st.subheader("By Bhanu Prasad")
 # st.image(r"573326-innomatics_research_labs_logo.png")
 model = pickle.load(open(r"estimator.pkl","rb"))
 
